@@ -1,0 +1,21 @@
+{
+  "name": "sql-rest-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.2.2",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
